@@ -18,7 +18,7 @@ A table dedicated to single-page, enterprise summary reports. Useful for PDF exp
 - Themes, including ability to test custom themes using your own css file
 - Use LookML tags to give default abbreviations to popular fields
 - Reduce to a single dimension value for financial-style reporting
-- Drill-to-detail 
+- Drill-to-detail
 
 
 ## Examples
@@ -77,7 +77,7 @@ The current tag settings available are `heading`, `short_name`, `unit`.
   - The vis will use subtotals from the query response if available
   - The tooltip will alert users to "estimated" numbers
 
-## Using Custom CSS 
+## Using Custom CSS
 
 You can also apply your own custom styling by supplying a URL to a CSS file in the `Load custom CSS from:` option and selecting `Use custom theme` in the `Theme` tab.
 
@@ -104,6 +104,8 @@ Great! Marketplace content -- including visualizations -- were designed for cont
 
     You need to bundle your code, let's run:
     ```
+
+    $env:NODE_OPTIONS="--openssl-legacy-provider"
     yarn build
     ```
     Recommended: Webpack can detect changes and build automatically
@@ -112,7 +114,7 @@ Great! Marketplace content -- including visualizations -- were designed for cont
     ```
     Your compiled code can be found in this repo.
 
-**`./report_table.js`**: This visualization's minified distribution file. 
+**`./report_table.js`**: This visualization's minified distribution file.
 
 **`LICENSE`**: Looker's Marketplace content License file.
 
