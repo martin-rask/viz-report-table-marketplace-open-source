@@ -12,6 +12,6 @@ constant: VIS_ID {
 
 visualization: {
   id: "@{VIS_ID}"
-  url: "https://martin-rask.github.io/martin-rask/report_table.js"
+  url: "https://rawcdn.githack.com/martin-rask/viz-report-table-marketplace-open-source/51ad9dbfe897bf0b811798a0d438430925cf7b19/report_table.js"
   label: "@{VIS_LABEL}"
 }
