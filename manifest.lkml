@@ -12,6 +12,6 @@ constant: VIS_ID {
 
 visualization: {
   id: "@{VIS_ID}"
-  file: "report_table.js"
+  url: "https://martin-rask.github.io/martin-rask/report_table.js"
   label: "@{VIS_LABEL}"
 }
