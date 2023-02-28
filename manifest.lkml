@@ -1,7 +1,7 @@
 project_name: "viz-report_table-html-marketplace"
 
 constant: VIS_LABEL {
-  value: "Table (Html Report)"
+  value: "Table (Html Report v2)"
   export: override_optional
 }
 
